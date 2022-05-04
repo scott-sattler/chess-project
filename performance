@@ -1,0 +1,388 @@
+         118201088 function calls (94100835 primitive calls) in 91.242 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000   91.242   91.242 <string>:1(<module>)
+      118    0.000    0.000    0.000    0.000 ImageTk.py:130(__str__)
+     1166    0.005    0.000    0.014    0.000 Queue.py:107(put)
+     1166    0.001    0.000    0.002    0.000 Queue.py:204(_put)
+        3    0.000    0.000    0.000    0.000 Tkinter.py:1003(winfo_width)
+     2138    0.006    0.000   10.184    0.005 Tkinter.py:1017(update)
+        3    0.000    0.000    0.013    0.004 Tkinter.py:1020(update_idletasks)
+       59    0.000    0.000    0.001    0.000 Tkinter.py:1037(_bind)
+       59    0.000    0.000    0.001    0.000 Tkinter.py:1054(bind)
+    35674    0.046    0.000    0.071    0.000 Tkinter.py:106(_cnfmerge)
+        3    0.000    0.000    0.000    0.000 Tkinter.py:1094(unbind)
+        1    0.000    0.000   91.242   91.242 Tkinter.py:1123(mainloop)
+    18542    0.060    0.000    0.115    0.000 Tkinter.py:1157(_options)
+       13    0.000    0.000    0.000    0.000 Tkinter.py:1183(nametowidget)
+      291    0.003    0.000    0.004    0.000 Tkinter.py:1200(_register)
+       14    0.000    0.000    0.000    0.000 Tkinter.py:1222(_root)
+        5    0.000    0.000    0.000    0.000 Tkinter.py:1231(_substitute)
+       55    0.000    0.000    0.000    0.000 Tkinter.py:1237(getint_event)
+        1    0.000    0.000    0.002    0.002 Tkinter.py:1288(_report_exception)
+    17104    0.055    0.000    3.236    0.000 Tkinter.py:1307(_configure)
+    16596    0.015    0.000    3.206    0.000 Tkinter.py:1319(configure)
+       19    0.000    0.000    0.000    0.000 Tkinter.py:1328(cget)
+      291    0.000    0.000    0.000    0.000 Tkinter.py:1526(__init__)
+   239/34    0.001    0.000   87.706    2.580 Tkinter.py:1531(__call__)
+        1    0.000    0.000    0.032    0.032 Tkinter.py:1855(destroy)
+        1    0.000    0.000    0.002    0.002 Tkinter.py:1885(report_callback_exception)
+       18    0.000    0.000    0.000    0.000 Tkinter.py:1896(__getattr__)
+       64    0.000    0.000    0.001    0.000 Tkinter.py:1922(pack_configure)
+      128    0.000    0.000    0.000    0.000 Tkinter.py:1942(pack_forget)
+     1216    0.002    0.000    0.029    0.000 Tkinter.py:1961(place_configure)
+      153    0.000    0.000    0.062    0.000 Tkinter.py:1987(place_forget)
+       28    0.000    0.000    0.000    0.000 Tkinter.py:2050(_setup)
+       28    0.000    0.000    0.002    0.000 Tkinter.py:2075(__init__)
+   197/20    0.001    0.000    0.031    0.002 Tkinter.py:2093(destroy)
+       28    0.000    0.000    0.002    0.000 Tkinter.py:2220(__init__)
+      130    0.001    0.000    0.010    0.000 Tkinter.py:2295(_create)
+      118    0.000    0.000    0.009    0.000 Tkinter.py:2312(create_image)
+        6    0.000    0.000    0.000    0.000 Tkinter.py:2315(create_line)
+        6    0.000    0.000    0.000    0.000 Tkinter.py:2327(create_text)
+       73    0.000    0.000    0.000    0.000 Tkinter.py:2337(delete)
+      508    0.001    0.000    0.046    0.000 Tkinter.py:2396(itemconfigure)
+     1063    0.001    0.000    0.017    0.000 Tkinter.py:2969(delete)
+     1063    0.002    0.000    0.011    0.000 Tkinter.py:3101(insert)
+     1063    0.003    0.000    7.995    0.008 Tkinter.py:3153(see)
+      118    0.000    0.000    0.000    0.000 Tkinter.py:3322(__str__)
+      198    0.000    0.000    0.001    0.000 Tkinter.py:432(destroy)
+      233    0.000    0.000    0.001    0.000 Tkinter.py:442(deletecommand)
+        1    0.000    0.000    0.000    0.000 Tkinter.py:516(focus_set)
+        8    0.000    0.000    0.000    0.000 Tkinter.py:529(focus_get)
+      232    0.001    0.000    0.008    0.000 Tkinter.py:574(after)
+      233    0.001    0.000    0.026    0.000 Tkinter.py:585(callit)
+       23    0.000    0.000    0.000    0.000 Tkinter.py:668(grab_release)
+       20    0.000    0.000    0.001    0.000 Tkinter.py:671(grab_set)
+   196926    0.548    0.000    0.548    0.000 chess_gui_1.26.py:1032(first_tile_information_store)
+193464/134347    0.679    0.000   59.857    0.000 chess_gui_1.26.py:1065(rule_and_state_inspections)
+     1060    0.014    0.000   13.097    0.012 chess_gui_1.26.py:1212(state_inspection)
+     1060    0.038    0.000    0.169    0.000 chess_gui_1.26.py:1358(move_piece)
+      102    0.001    0.000    0.010    0.000 chess_gui_1.26.py:1696(captured_piece_display)
+    39246    0.239    0.000   26.835    0.001 chess_gui_1.26.py:1719(pawn_rules)
+    38272    0.060    0.000    0.118    0.000 chess_gui_1.26.py:1825(en_passant_rules)
+    60080    5.468    0.000   39.630    0.001 chess_gui_1.26.py:1866(a_copy_rename)
+    37005    0.158    0.000    0.170    0.000 chess_gui_1.26.py:1881(rook_rules)
+    28807    0.060    0.000    0.107    0.000 chess_gui_1.26.py:1983(knight_rules)
+    25700    0.059    0.000    0.129    0.000 chess_gui_1.26.py:2018(bishop_rules)
+    51519    0.938    0.000    1.074    0.000 chess_gui_1.26.py:2042(king_rules)
+   315317    0.039    0.000    0.039    0.000 chess_gui_1.26.py:2089(<genexpr>)
+      240    0.000    0.000    0.000    0.000 chess_gui_1.26.py:2099(<genexpr>)
+    11187    0.042    0.000    0.079    0.000 chess_gui_1.26.py:2145(queen_rules)
+    19774    0.902    0.000   17.231    0.001 chess_gui_1.26.py:2218(check_rules)
+     1060    0.016    0.000    0.017    0.000 chess_gui_1.26.py:2322(fifty_move_rule)
+     1060    0.012    0.000    0.083    0.000 chess_gui_1.26.py:2341(draw_rules)
+    19774    0.064    0.000    0.125    0.000 chess_gui_1.26.py:2396(temporary_move)
+    84908    0.251    0.000    0.421    0.000 chess_gui_1.26.py:2436(path_unblocked)
+    59346    1.472    0.000    3.190    0.000 chess_gui_1.26.py:2501(in_check)
+   474768    1.314    0.000    1.479    0.000 chess_gui_1.26.py:2564(cardinal_and_intercardinal)
+     1060    0.079    0.000   13.075    0.012 chess_gui_1.26.py:2691(no_valid_moves)
+   338985    0.515    0.000    0.554    0.000 chess_gui_1.26.py:2772(magnitude_and_direction)
+     1092    0.016    0.000    0.016    0.000 chess_gui_1.26.py:2795(alternate_players)
+     1156    0.005    0.000    0.033    0.000 chess_gui_1.26.py:2963(place_piece)
+        3    0.000    0.000    0.015    0.005 chess_gui_1.26.py:3047(game_over)
+        3    0.002    0.001    0.030    0.010 chess_gui_1.26.py:3087(reset_board)
+     4129    0.007    0.000    0.021    0.000 chess_gui_1.26.py:3252(sound_handler)
+       16    0.000    0.000    0.003    0.000 chess_gui_1.26.py:3380(promotion_box_display)
+       16    0.002    0.000    0.015    0.001 chess_gui_1.26.py:3400(promotion_box_controls)
+       16    0.000    0.000    0.003    0.000 chess_gui_1.26.py:3471(create_piece)
+     7696    0.025    0.000    0.298    0.000 chess_gui_1.26.py:3480(color_piece_background)
+     1063    0.095    0.000    0.103    0.000 chess_gui_1.26.py:3524(helper_king_inspection)
+     1063    0.210    0.000   74.963    0.071 chess_gui_1.26.py:3649(random_move)
+     3845    0.129    0.000    0.143    0.000 chess_gui_1.26.py:3748(get_player_piece_list)
+     3461    0.488    0.000   46.179    0.013 chess_gui_1.26.py:3780(get_valid_moves)
+      4/1    0.017    0.004   87.700   87.700 chess_gui_1.26.py:3851(random_move_game)
+     1293    0.007    0.000    0.065    0.000 chess_gui_1.26.py:656(clock_update)
+     1063    0.610    0.001   11.765    0.011 chess_gui_1.26.py:686(text_box_update)
+   319614    0.271    0.000    0.336    0.000 chess_gui_1.26.py:798(xy_to_notation)
+        3    0.000    0.000    0.015    0.005 chess_gui_1.26.py:836(create_notification_window)
+        3    0.000    0.000    0.013    0.004 chess_gui_1.26.py:876(close_window_button)
+        3    0.000    0.000    0.000    0.000 chess_gui_1.26.py:899(controls_event_handler)
+        4    0.000    0.000    0.000    0.000 chess_gui_1.26.py:926(enter_exit_button)
+    19774    0.029    0.000    0.029    0.000 copy.py:113(_copy_with_constructor)
+19777738/63560   14.841    0.000   33.346    0.001 copy.py:145(deepcopy)
+    66573    0.009    0.000    0.009    0.000 copy.py:198(_deepcopy_atomic)
+4386059/60083   10.549    0.000   33.085    0.001 copy.py:226(_deepcopy_list)
+     3477    0.017    0.000    0.057    0.000 copy.py:234(_deepcopy_tuple)
+  4456109    2.324    0.000    2.974    0.000 copy.py:267(_keep_alive)
+    19774    0.022    0.000    0.055    0.000 copy.py:66(copy)
+        8    0.000    0.000    0.002    0.000 linecache.py:13(getline)
+        8    0.000    0.000    0.002    0.000 linecache.py:33(getlines)
+        8    0.000    0.000    0.000    0.000 linecache.py:47(checkcache)
+        2    0.000    0.000    0.002    0.001 linecache.py:72(updatecache)
+     2417    0.010    0.000    0.011    0.000 random.py:273(choice)
+     1166    0.001    0.000    0.002    0.000 threading.py:300(_is_owned)
+     1166    0.003    0.000    0.006    0.000 threading.py:373(notify)
+     1166    0.001    0.000    0.001    0.000 threading.py:64(_note)
+        1    0.000    0.000    0.002    0.002 traceback.py:110(print_exception)
+       18    0.000    0.000    0.000    0.000 traceback.py:12(_print)
+        1    0.000    0.000    0.000    0.000 traceback.py:147(format_exception_only)
+        1    0.000    0.000    0.000    0.000 traceback.py:203(_format_final_exc_line)
+        1    0.000    0.000    0.000    0.000 traceback.py:212(_some_str)
+        1    0.000    0.000    0.002    0.002 traceback.py:46(print_tb)
+    35770    0.017    0.000    0.017    0.000 {_tkinter._flatten}
+  1985980    0.130    0.000    0.130    0.000 {abs}
+24792/24195   21.290    0.001   21.305    0.001 {built-in method call}
+      291    0.001    0.000    0.001    0.000 {built-in method createcommand}
+      537    0.001    0.000    0.001    0.000 {built-in method deletecommand}
+       10    0.000    0.000    0.000    0.000 {built-in method getboolean}
+        1    3.535    3.535   91.242   91.242 {built-in method mainloop}
+      543    0.005    0.000    0.005    0.000 {built-in method utcnow}
+   319614    0.047    0.000    0.047    0.000 {chr}
+       18    0.000    0.000    0.000    0.000 {getattr}
+    25531    0.024    0.000    0.024    0.000 {hasattr}
+ 28687262    1.475    0.000    1.475    0.000 {id}
+    25538    0.015    0.000    0.015    0.000 {isinstance}
+        1    0.000    0.000    0.000    0.000 {issubclass}
+   133059    0.016    0.000    0.016    0.000 {len}
+    76216    0.018    0.000    0.018    0.000 {math.ceil}
+     6544    0.003    0.000    0.003    0.000 {max}
+     2332    0.002    0.000    0.002    0.000 {method 'acquire' of 'thread.lock' objects}
+     1166    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+ 24181496    1.975    0.000    1.975    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        2    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+    76216    0.050    0.000    0.050    0.000 {method 'format' of 'str' objects}
+ 24253621    2.170    0.000    2.170    0.000 {method 'get' of 'dict' objects}
+     1448    0.002    0.000    0.002    0.000 {method 'index' of 'list' objects}
+    18542    0.006    0.000    0.006    0.000 {method 'items' of 'dict' objects}
+        3    0.000    0.000    0.000    0.000 {method 'iteritems' of 'dict' objects}
+       28    0.000    0.000    0.000    0.000 {method 'keys' of 'dict' objects}
+   303802    0.027    0.000    0.027    0.000 {method 'lower' of 'str' objects}
+     2417    0.001    0.000    0.001    0.000 {method 'random' of '_random.Random' objects}
+        2    0.002    0.001    0.002    0.001 {method 'readlines' of 'file' objects}
+     1167    0.000    0.000    0.000    0.000 {method 'release' of 'thread.lock' objects}
+      234    0.000    0.000    0.000    0.000 {method 'remove' of 'list' objects}
+       13    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+        8    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+    19968    0.012    0.000    0.012    0.000 {method 'update' of 'dict' objects}
+   151901    0.016    0.000    0.016    0.000 {method 'upper' of 'str' objects}
+      198    0.000    0.000    0.000    0.000 {method 'values' of 'dict' objects}
+       18    0.000    0.000    0.000    0.000 {method 'write' of 'file' objects}
+   237387    0.050    0.000    0.050    0.000 {min}
+        8    0.000    0.000    0.000    0.000 {nt.stat}
+        2    0.000    0.000    0.000    0.000 {open}
+   319614    0.018    0.000    0.018    0.000 {ord}
+  6122972    1.268    0.000    1.268    0.000 {range}
+      319    0.000    0.000    0.000    0.000 {repr}
+       87    0.000    0.000    0.000    0.000 {setattr}
+     2154   16.196    0.008   16.196    0.008 {time.sleep}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------- OLD --------------- --------------- OLD --------------- --------------- OLD ---------------
+--------------- OLD --------------- --------------- OLD --------------- --------------- OLD ---------------
+--------------- OLD --------------- --------------- OLD --------------- --------------- OLD ---------------
+
+
+
+
+
+
+
+
+
+
+
+         66435385 function calls (62086693 primitive calls) in 209.389 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000  209.389  209.389 <string>:1(<module>)
+       33    0.000    0.000    0.000    0.000 ImageTk.py:130(__str__)
+      238    0.001    0.000    2.860    0.012 Tkinter.py:1017(update)
+       18    0.000    0.000    0.000    0.000 Tkinter.py:1037(_bind)
+       18    0.000    0.000    0.000    0.000 Tkinter.py:1054(bind)
+  3002361    2.415    0.000    3.318    0.000 Tkinter.py:106(_cnfmerge)
+        1    0.000    0.000  209.389  209.389 Tkinter.py:1123(mainloop)
+  1501316    2.863    0.000    5.015    0.000 Tkinter.py:1157(_options)
+        1    0.000    0.000    0.000    0.000 Tkinter.py:1183(nametowidget)
+      249    0.002    0.000    0.003    0.000 Tkinter.py:1200(_register)
+        2    0.000    0.000    0.000    0.000 Tkinter.py:1222(_root)
+        1    0.000    0.000    0.000    0.000 Tkinter.py:1231(_substitute)
+       11    0.000    0.000    0.000    0.000 Tkinter.py:1237(getint_event)
+        1    0.000    0.000    0.003    0.003 Tkinter.py:1288(_report_exception)
+  1501036    2.917    0.000   56.253    0.000 Tkinter.py:1307(_configure)
+  1500579    0.819    0.000   57.056    0.000 Tkinter.py:1319(configure)
+        9    0.000    0.000    0.000    0.000 Tkinter.py:1328(cget)
+      249    0.000    0.000    0.000    0.000 Tkinter.py:1526(__init__)
+    233/4    0.000    0.000  209.020   52.255 Tkinter.py:1531(__call__)
+        1    0.000    0.000    0.023    0.023 Tkinter.py:1855(destroy)
+        1    0.000    0.000    0.003    0.003 Tkinter.py:1885(report_callback_exception)
+       72    0.000    0.000    0.000    0.000 Tkinter.py:1942(pack_forget)
+      238    0.000    0.000    0.005    0.000 Tkinter.py:1961(place_configure)
+       51    0.000    0.000    0.007    0.000 Tkinter.py:1987(place_forget)
+        9    0.000    0.000    0.000    0.000 Tkinter.py:2050(_setup)
+        9    0.000    0.000    0.001    0.000 Tkinter.py:2075(__init__)
+    179/5    0.001    0.000    0.020    0.004 Tkinter.py:2093(destroy)
+        9    0.000    0.000    0.001    0.000 Tkinter.py:2220(__init__)
+       33    0.000    0.000    0.002    0.000 Tkinter.py:2295(_create)
+       33    0.000    0.000    0.002    0.000 Tkinter.py:2312(create_image)
+      457    0.000    0.000    0.015    0.000 Tkinter.py:2396(itemconfigure)
+    22393    0.021    0.000    0.190    0.000 Tkinter.py:2969(delete)
+    22393    0.022    0.000    0.173    0.000 Tkinter.py:3101(insert)
+    22393    0.033    0.000  107.698    0.005 Tkinter.py:3153(see)
+       33    0.000    0.000    0.000    0.000 Tkinter.py:3322(__str__)
+      180    0.000    0.000    0.001    0.000 Tkinter.py:432(destroy)
+      231    0.000    0.000    0.001    0.000 Tkinter.py:442(deletecommand)
+      231    0.001    0.000    0.006    0.000 Tkinter.py:574(after)
+      231    0.001    0.000    0.018    0.000 Tkinter.py:585(callit)
+        9    0.000    0.000    0.000    0.000 Tkinter.py:668(grab_release)
+        1    0.000    0.000    0.000    0.000 Tkinter.py:671(grab_set)
+      229    0.007    0.000    0.024    0.000 chess_gui_1.11.py:1014(move_piece)
+       24    0.000    0.000    0.002    0.000 chess_gui_1.11.py:1330(captured_piece_display)
+     8827    0.067    0.000    6.493    0.001 chess_gui_1.11.py:1352(pawn_rules)
+     8659    0.017    0.000    0.033    0.000 chess_gui_1.11.py:1436(en_passant_rules)
+    10851    1.039    0.000    7.388    0.001 chess_gui_1.11.py:1477(a_copy_rename)
+     4575    0.087    0.000    0.090    0.000 chess_gui_1.11.py:1492(rook_rules)
+     3296    0.010    0.000    0.019    0.000 chess_gui_1.11.py:1594(knight_rules)
+     2187    0.006    0.000    0.017    0.000 chess_gui_1.11.py:1629(bishop_rules)
+     3008    0.049    0.000    0.062    0.000 chess_gui_1.11.py:1653(king_rules)
+    13934    0.002    0.000    0.002    0.000 chess_gui_1.11.py:1700(<genexpr>)
+       30    0.000    0.000    0.000    0.000 chess_gui_1.11.py:1710(<genexpr>)
+      501    0.002    0.000    0.005    0.000 chess_gui_1.11.py:1756(queen_rules)
+     1921    0.091    0.000    1.723    0.001 chess_gui_1.11.py:1829(check_rules)
+     1921    0.007    0.000    0.013    0.000 chess_gui_1.11.py:1941(temporary_move)
+    18134    0.303    0.000    0.346    0.000 chess_gui_1.11.py:1981(path_unblocked)
+     5772    0.145    0.000    0.316    0.000 chess_gui_1.11.py:2041(in_check)
+    46176    0.131    0.000    0.148    0.000 chess_gui_1.11.py:2104(cardinal_and_intercardinal)
+      103    0.087    0.001   34.043    0.331 chess_gui_1.11.py:2223(in_checkmate)
+    50384    0.092    0.000    0.099    0.000 chess_gui_1.11.py:2300(magnitude_and_direction)
+      251    0.002    0.000    0.002    0.000 chess_gui_1.11.py:2323(alternate_players)
+      229    0.001    0.000    0.006    0.000 chess_gui_1.11.py:2486(place_piece)
+    23148    0.029    0.000    0.029    0.000 chess_gui_1.11.py:2702(sound_handler)
+        9    0.000    0.000    2.210    0.246 chess_gui_1.11.py:2888(promotion_box_controls)
+        9    0.000    0.000    0.001    0.000 chess_gui_1.11.py:2949(create_piece)
+    22622    2.078    0.000   16.885    0.001 chess_gui_1.11.py:2958(color_piece_background)
+      230    0.471    0.002  194.838    0.847 chess_gui_1.11.py:3000(random_move)
+        1    0.003    0.003  209.017  209.017 chess_gui_1.11.py:3185(random_move_game)
+    44586    0.882    0.000    0.882    0.000 chess_gui_1.11.py:3272(debugging_printer)
+      460    0.004    0.000    0.028    0.000 chess_gui_1.11.py:454(clock_update)
+    22394    9.866    0.000  167.439    0.007 chess_gui_1.11.py:547(text_box_update)
+  5458784    4.361    0.000    5.330    0.000 chess_gui_1.11.py:615(xy_to_notation)
+    22394    0.178    0.000    1.089    0.000 chess_gui_1.11.py:837(first_tile_information_store)
+22394/18883    0.203    0.000  193.290    0.010 chess_gui_1.11.py:872(rule_and_state_inspections)
+22396/18654    0.011    0.000   34.053    0.002 chess_gui_1.11.py:998(state_inspection)
+     1921    0.003    0.000    0.003    0.000 copy.py:113(_copy_with_constructor)
+3570209/11081    2.729    0.000    6.186    0.001 copy.py:145(deepcopy)
+    11081    0.002    0.000    0.002    0.000 copy.py:198(_deepcopy_atomic)
+792123/10851    1.962    0.000    6.136    0.001 copy.py:226(_deepcopy_list)
+   803204    0.447    0.000    0.569    0.000 copy.py:267(_keep_alive)
+     1921    0.003    0.000    0.006    0.000 copy.py:66(copy)
+        7    0.000    0.000    0.002    0.000 linecache.py:13(getline)
+        7    0.000    0.000    0.002    0.000 linecache.py:33(getlines)
+        7    0.000    0.000    0.001    0.000 linecache.py:47(checkcache)
+        2    0.000    0.000    0.002    0.001 linecache.py:72(updatecache)
+      577    0.002    0.000    0.003    0.000 random.py:273(choice)
+        1    0.000    0.000    0.003    0.003 traceback.py:110(print_exception)
+       16    0.000    0.000    0.000    0.000 traceback.py:12(_print)
+        1    0.000    0.000    0.000    0.000 traceback.py:147(format_exception_only)
+        1    0.000    0.000    0.000    0.000 traceback.py:203(_format_final_exc_line)
+        1    0.000    0.000    0.000    0.000 traceback.py:212(_some_str)
+        1    0.000    0.000    0.003    0.003 traceback.py:46(print_tb)
+  3002385    0.693    0.000    0.693    0.000 {_tkinter._flatten}
+   286912    0.029    0.000    0.029    0.000 {abs}
+1569304/1568668  155.930    0.000  155.943    0.000 {built-in method call}
+      249    0.001    0.000    0.001    0.000 {built-in method createcommand}
+      423    0.001    0.000    0.001    0.000 {built-in method deletecommand}
+        2    0.000    0.000    0.000    0.000 {built-in method getboolean}
+        1    0.368    0.368  209.389  209.389 {built-in method mainloop}
+      462    0.003    0.000    0.003    0.000 {built-in method utcnow}
+  5458784    0.693    0.000    0.693    0.000 {chr}
+  1501582    0.911    0.000    0.911    0.000 {hasattr}
+  5176875    0.274    0.000    0.274    0.000 {id}
+  1501583    0.548    0.000    0.548    0.000 {isinstance}
+        1    0.000    0.000    0.000    0.000 {issubclass}
+    40409    0.007    0.000    0.007    0.000 {len}
+  1369802    0.296    0.000    0.296    0.000 {math.ceil}
+      497    0.000    0.000    0.000    0.000 {max}
+  4357170    0.373    0.000    0.373    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        2    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+  1369802    0.816    0.000    0.816    0.000 {method 'format' of 'str' objects}
+  4375334    0.402    0.000    0.402    0.000 {method 'get' of 'dict' objects}
+      339    0.006    0.000    0.006    0.000 {method 'index' of 'list' objects}
+  1501316    0.341    0.000    0.341    0.000 {method 'items' of 'dict' objects}
+        9    0.000    0.000    0.000    0.000 {method 'keys' of 'dict' objects}
+  5458784    0.453    0.000    0.453    0.000 {method 'lower' of 'str' objects}
+      577    0.000    0.000    0.000    0.000 {method 'random' of '_random.Random' objects}
+        2    0.002    0.001    0.002    0.001 {method 'readlines' of 'file' objects}
+      231    0.000    0.000    0.000    0.000 {method 'remove' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+        7    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+  1501596    0.474    0.000    0.474    0.000 {method 'update' of 'dict' objects}
+  2729392    0.269    0.000    0.269    0.000 {method 'upper' of 'str' objects}
+      180    0.000    0.000    0.000    0.000 {method 'values' of 'dict' objects}
+       16    0.000    0.000    0.000    0.000 {method 'write' of 'file' objects}
+    23088    0.005    0.000    0.005    0.000 {min}
+        7    0.001    0.000    0.001    0.000 {nt.stat}
+        2    0.000    0.000    0.000    0.000 {open}
+  5458784    0.277    0.000    0.277    0.000 {ord}
+  1171922    0.306    0.000    0.306    0.000 {range}
+      258    0.000    0.000    0.000    0.000 {repr}
+      229   11.433    0.050   11.433    0.050 {time.sleep}
+
+
+
+
+22394    9.866    0.000  167.439    0.007 chess_gui_1.11.py:547(text_box_update)
+266    0.007    0.000    2.018    0.008 chess_gui_1.11.py:552(text_box_update)
+329    0.200    0.001    3.901    0.012 chess_gui_1.11.py:552(text_box_update)
+
+210/167 vs 54/4
+
+22622    2.078    0.000   16.885    0.001 chess_gui_1.11.py:2958(color_piece_background)
+666    0.003    0.000    0.023    0.000 chess_gui_1.11.py:2990(color_piece_background)
