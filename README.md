@@ -1,6 +1,4 @@
-# chess-project
-
-## CS50 final project + part of 6.034.
+# CS50 final project + part of 6.034.
 
 ![alt text](https://github.com/scott-sattler/chess-project/blob/main/chess_app_screenshot.png?raw=true)
 
