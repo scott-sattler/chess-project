@@ -1,4 +1,5 @@
-#
+# 
+# https://stackoverflow.com/questions/24516814/should-i-ignore-the-idea-folder-when-using-pycharm-with-git
 .idea
 .idea.zip
 design*ideas/
